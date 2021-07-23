@@ -1,0 +1,7 @@
+class blowButton{
+
+function blow () {
+Matter.Body.applyForce(ball.Body,{x:0 , y:0 },{x:0 , y:0.5});
+
+    }
+}
